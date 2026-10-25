@@ -1,6 +1,6 @@
 FROM node:24-alpine AS deemix-builder
 
-ARG DEEMIX_REPO=https://github.com/crywolf203/deemix.git
+ARG DEEMIX_REPO=https://github.com/mk7sky9/deemix.git
 # renovate: datasource=git-refs packageName=https://github.com/crywolf203/deemix currentValue=fix-docker-temp-artwork-permissions
 ARG DEEMIX_REF=72663d4a78436b01aa3b26d8df822cf43f105c59
 
